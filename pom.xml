@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pe.joseval.spring.extensions</groupId>
+	<artifactId>spring-jpa-util</artifactId>
+	<version>0.0.1-alpha</version>
+	<name>Spring Boot 2.1.0.RELEASE Jpa Util Extensions</name>
+	<description>Simple code to solve known jpa requirements</description>
+
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.0.RELEASE</version>
+	</parent>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>José Valenzuela Soto</name>
+			<email>leunamesoj.valenzuelasoto@gmail.com</email>
+			<url>https://github.com/joveval</url>
+		</developer>
+	</developers>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+	</dependencies>
+
+
+</project>
